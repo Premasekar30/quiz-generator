@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contaniner{
+    background-color: aquamarine;
+   
+}
+.contaniner h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.task1{
+    background-color: blue;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    left: 30%;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+}
+.task1-btn1{
+    
+    margin-top: 10px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    cursor: pointer;
+}
+.task1-title{
+    color: white;
+    padding-top: 40px;
+    
+}
+.task1-answer{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.task2{
+    background-color:violet;
+    width: 500px;
+    height: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+
+}
+.task2-answer{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.task2-title{
+    color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.task2-btn1{
+    
+    margin-top: 10px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    border-radius: 10px;
+    position: relative;
+    left: 30%;
+}
+.task2-btn2{
+    
+    margin-top: 10px;
+    background-color: greenyellow;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+    left: 30%;
+
+}
+    
+@media screen and(max-width:600px){
+    .task1{
+        position:relative;
+        left: 0;
+    }
+    
+    
+}
